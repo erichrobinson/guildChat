@@ -1,7 +1,7 @@
 # Getting Started
-`npm install`
-`‌npm run client-install`
-`npm run seed`
+`npm install`\
+`npm run client-install`\
+`npm run seed`\
 `npm run dev`
 
 # General Info
@@ -15,6 +15,8 @@ The bottom of the chat interface features a text input field and a submit button
 - Express
 - Node
 - Socket.io
+- React-Express-Starter 
+  https://github.com/bradtraversy/react_express_starter
 
 # Future Additions + Current Limitations
 ## Testing

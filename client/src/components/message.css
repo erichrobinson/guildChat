@@ -1,0 +1,30 @@
+.label {
+  color: black;
+  margin-top: 15px;
+}
+
+.message-wrapper:nth-last-child(2) {
+  margin-bottom: 80px;
+}
+
+.message-container.sent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message {
+  width: 50%;
+  margin: 10px;
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.message.sent {
+  text-align: right;
+  color: red;
+}
+
+.message.received {
+  color: blue;;
+}

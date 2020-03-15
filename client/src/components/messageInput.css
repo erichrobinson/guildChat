@@ -1,0 +1,23 @@
+.message-input-container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color:white;
+}
+
+.message-input-container input {
+  margin: 20px;
+  height: 30px;
+  width: 80%;
+}
+
+.message-input-container button {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  width: 15%;
+  height: 40px;
+  margin-right: 20px;
+}

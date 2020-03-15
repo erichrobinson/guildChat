@@ -1,0 +1,6 @@
+.user-card {
+  cursor: pointer;
+  border: 1px solid gray;
+  padding: 10px 30px;
+  margin: 20px 0;
+}

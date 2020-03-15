@@ -1,8 +1,8 @@
 # Getting Started
 
 **Requirements**
-- Mongodb installed\
-- Node 13.10
+- MongoDB installed and running
+- Node 13.10 (may work on versions >= 7.6 but untested)
 
 **Setting Up the Application**\
 `npm install`\

@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import './users.css';
+import './users.css'
 
 class Users extends Component {
   constructor() {
     super();
     this.state = {
       users: []
-    };
+    }
   }
 
   componentDidMount() {
     fetch('/api/users')
       .then(res => res.json())
-      .then(users => this.setState({ users }));
+      .then(users => this.setState({ users }))
   }
 
   render() {
@@ -25,8 +25,8 @@ class Users extends Component {
           <div className="user-card" key={i} onClick={() => setUser(user)}>{user.name}</div>
         )}
       </div>
-    );
+    )
   }
 }
 
-export default Users;
+export default Users

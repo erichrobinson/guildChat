@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import './messageInput.css';
+import './messageInput.css'
 
 class MessageInput extends Component {
   constructor() {
@@ -40,8 +40,8 @@ class MessageInput extends Component {
         <input value={this.state.message} onChange={(e) => this.updateMessage(e)} placeholder='Enter a new message...' />
         <button onClick={() => this.sendMessage()}>Send</button>
       </div>
-    );
+    )
   }
 }
 
-export default MessageInput;
+export default MessageInput

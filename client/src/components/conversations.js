@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import './conversations.css';
+import './conversations.css'
 
 class Conversations extends Component {
   constructor() {
-    super();
+    super()
     this.state = {
       conversations: []
     }
@@ -13,7 +13,7 @@ class Conversations extends Component {
   componentDidMount() {
     fetch(`/api/conversations/${this.props.user._id}`)
       .then(res => res.json())
-      .then(conversations => this.setState({ conversations }));
+      .then(conversations => this.setState({ conversations }))
   }
 
   render() {
@@ -25,8 +25,8 @@ class Conversations extends Component {
           <div className='conversation-card' onClick={() => setConversation(convo)} key={i}>Conversation: {convo._id}</div>
         )}
       </div>
-    );
+    )
   }
 }
 
-export default Conversations;
+export default Conversations

@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import Users from './components/users';
-import Conversations from './components/conversations';
-import Messages from './components/messages';
+import Users from './components/users'
+import Conversations from './components/conversations'
+import Messages from './components/messages'
 
-import './App.css';
+import './App.css'
 
 class App extends Component {
   constructor() {
-    super();
+    super()
     this.state = {
       user: '',
       conversation: '',
       messages: '',
       recepient: ''
-    };
+    }
   }
 
   setUser = user => {
@@ -45,8 +45,8 @@ class App extends Component {
         </header>
         {view}
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

@@ -1,4 +1,10 @@
 # Getting Started
+
+**Requirements**
+- Mongodb installed\
+- Node 13.10
+
+**Setting Up the Application**\
 `npm install`\
 `npm run client-install`\
 `npm run seed`

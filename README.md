@@ -9,16 +9,18 @@
 `npm run client-install`\
 `npm run seed`
 
-**Start the Dev Server**
+**Start the Dev Server**\
 `npm run dev`
 (runs both server and client)
 
 or
 
 **Start the Server**
+
 `npm start`
 
 **Start the Client**
+
 `npm run client`
 
 

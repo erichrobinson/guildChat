@@ -48,6 +48,8 @@ In a production environment I fully support testing. Testing is necessary to con
 When a new message is entered, the view immediately jumps to the latest message. This should happen with smooth scroll. Similarly, when logging into an existing chat the view should be scrolled to the most recent messages.
 ## User CRUD
 Rather than just logging in with dummy users, there needs to be a UI flow for creating new users within the application.
+## Socket.io Namespaces and Rooms
+To facilitate private chat for an application that supports > 2 people I'd need to implement a strategy using `namespaces` and `rooms` so that socket emit events could be broadcast to specific clients.
 ## User Search + New Conversations
 When logging in as a user, you should be presented with the ability to search for users to create new conversations with.
 ## Message Reactions

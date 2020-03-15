@@ -4,6 +4,8 @@
 `npm run seed`\
 `npm run dev`
 
+Server runs on http://localhost:5000 and client on http://localhost:3000
+
 # General Info
 After seeding the database, two users will exist. When you visit `localhost:3000` you can select a user to login in as. The next screen will have a single card representing a conversation between you and the other generate user. Clicking that card will take you to the chat interface which is prepopulated with  lorem ipsum messages. 
 

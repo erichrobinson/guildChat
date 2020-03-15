@@ -1,7 +1,7 @@
 # Getting Started
 `npm install`\
 `npm run client-install`\
-`npm run seed`\
+`npm run seed`
 
 **Start the Dev Server**
 `npm run dev`

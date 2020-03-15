@@ -21,7 +21,7 @@ The bottom of the chat interface features a text input field and a submit button
 # Future Additions + Current Limitations
 ## Testing
 In a production environment I fully support testing. Testing is necessary to confidently build applications that behave in reliable ways. The absence of tests here *does not* indicate an ambivalence toward testing on my part. I chose not to include tests in this exercise because of time considerations.
-## Scroll to Latest Message
+## Smooth Scroll to Latest Message
 When a new message is entered, it is partially hidden at the bottom of the screen. New messages should immediately be visible. Similarly, when logging into an existing chat the view should be scrolled to the most recent messages.
 ## User CRUD
 Rather than just logging in with dummy users, there needs to be a UI flow for creating new users within the application.

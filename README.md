@@ -15,8 +15,9 @@ The bottom of the chat interface features a text input field and a submit button
 - Express
 - Node
 - Socket.io
-- React-Express-Starter 
-  https://github.com/bradtraversy/react_express_starter
+- React-Express-Starter\
+  https://github.com/bradtraversy/react_express_starter \
+  Provided basic file structure and foundational packages
 
 # Future Additions + Current Limitations
 ## Testing

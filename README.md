@@ -1,8 +1,10 @@
 # Getting Started
 
 **Requirements**
-- MongoDB installed and running
-- Node 13.10 (may work on versions >= 7.6 but untested)
+- MongoDB installed and running\
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+- Node 12.16.1 (may work on all versions >= 7.6 but untested)\
+consider using `nvm` to switch between Node versions https://github.com/nvm-sh/nvm
 
 **Setting Up the Application**\
 `npm install`\
